@@ -308,9 +308,10 @@ body {
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2.5rem;
     margin-bottom: 4rem;
+    padding: 0 10px;
 }
 
 .portfolio-card {
@@ -854,11 +855,32 @@ body {
 
     .portfolio-grid {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
     }
 
     .portfolio-card {
-        margin: 0 10px;
+        margin: 0;
+        max-width: 100%;
+        min-height: auto;
+    }
+    
+    .portfolio-image {
+        height: 200px;
+    }
+    
+    .portfolio-content {
+        padding: 1rem;
+    }
+    
+    .portfolio-content h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .portfolio-content p {
+        font-size: 0.9rem;
+        line-height: 1.4;
     }
 
     .contact-content {
@@ -879,6 +901,35 @@ body {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+    }
+    
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0 5px;
+    }
+    
+    .portfolio-card {
+        margin: 0;
+        border-radius: 15px;
+    }
+    
+    .portfolio-image {
+        height: 180px;
+    }
+    
+    .portfolio-content {
+        padding: 0.8rem;
+    }
+    
+    .portfolio-tags {
+        flex-wrap: wrap;
+        gap: 0.3rem;
+    }
+    
+    .tag {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.5rem;
     }
 
     .hero-title {
