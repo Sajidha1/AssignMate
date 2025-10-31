@@ -633,26 +633,14 @@ function setupGallery(projectCard) {
             title: 'Event Poster',
             type: 'Poster Design'
         },
-        {
-            src: 'images/posters and logos/Drivebot.png',
-            title: 'Graphic design',
-            type: 'Poster Design'
-        },
-        {
-            src: 'images/posters and logos/logo1.png',
-            title: 'Brand Logo 1',
-            type: 'Logo Design'
-        },
+       
+        
         {
             src: 'images/posters and logos/logo2.png',
             title: 'Brand Logo 2',
             type: 'Logo Design'
         },
-        {
-            src: 'images/posters and logos/logo3.png',
-            title: 'Brand Logo 3',
-            type: 'Logo Design'
-        }
+        
     ];
     
     // Clear gallery grid
